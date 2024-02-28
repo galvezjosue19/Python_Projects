@@ -1,0 +1,17 @@
+
+
+
+   
+price = int(input())
+discount = int(input())
+
+def discounted(price, discount):
+    return price * (1- discount / 100)
+
+print(discounted(price,discount))
+
+income = int(input())
+rate = int(input())
+def tax(income, rate):
+    return income * rate/100
+print(tax(income,rate))

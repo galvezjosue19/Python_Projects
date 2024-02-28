@@ -1,0 +1,14 @@
+
+
+file = open("hola.txt", "w")
+file.write("Im adding an extraline")
+file = open("newfile.txt", "r")
+print(file.read())
+file.close()
+
+file = open("hola.txt", "a")
+file.write("\nuna linea nueva")
+file.close()
+
+
+
