@@ -1,6 +1,6 @@
 import fileinput
 
-studentGrade = {}
+studentGrades = {}
 
 for line in fileinput.input():
     values = line.split(',')  #This is going to grab Ben,92 and turn it into a list ["Ben", "92"]
